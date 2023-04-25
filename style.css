@@ -3,14 +3,15 @@
 }
 
 body{
-	background-color:#d09d29;
-	color:#ffffff;
+	background-color:#3E424B;
+	color:#000000;
 }
 
 #wrapper { width: 80%;
            margin-left: auto;
            margin-right: auto;
-           background-color:#3F4F22;
+           background-color:#C7C6C1;
+;
        }
 header {
       width: 100%;
@@ -29,10 +30,21 @@ header {
      	 border-radius: 15px;
      	 margin-top: 10px;
      }
-     .label{
+     form { 
+      width:20%;
+      clear: left;  
+      border-radius: 5px; 
+      background-color:#f2f2f2;
+      padding:20px;
+ }
+
+ input [type=submit],[type=reset] {
+  background-color:#45a049;
+ }
+ .label{
       width: 50%;
       border:5px solid white ;
-      margin:  2px 0;
+      margin-top: 20px;
      }
      h3{
       text-align: center;
@@ -79,8 +91,8 @@ tr{
 }
 
 tr:nth-child(even) {
-  background-color: #000000;
-  color: darkred;
+  background-color: #ffffff;
+  color:#000000;
 }
 tr:first-child{
   font-family: sans-serif;
